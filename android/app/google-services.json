@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "631323860980",
+    "project_id": "recipe-7a618",
+    "storage_bucket": "recipe-7a618.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631323860980:android:9e19177497694df4b363a1",
+        "android_client_info": {
+          "package_name": "com.example.gemini_io_talk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr8tFo4zitR2Ng9TZrAbL0xiiAf4ZRJYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
