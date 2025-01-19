@@ -7,8 +7,6 @@ enum CuisineFilter {
   chinese,
   indian,
   greek,
-  moroccan,
-  ethiopian,
   southAfrican,
 }
 
@@ -58,8 +56,6 @@ String cuisineReadable(CuisineFilter filter) {
     CuisineFilter.japanese => 'Japanese',
     CuisineFilter.chinese => 'Chinese',
     CuisineFilter.indian => 'Indian',
-    CuisineFilter.ethiopian => 'Ethiopian',
-    CuisineFilter.moroccan => 'Moroccan',
     CuisineFilter.greek => 'Greek',
     CuisineFilter.southAfrican => 'South African',
   };

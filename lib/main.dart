@@ -54,7 +54,7 @@ class _MainAppState extends State<MainApp> {
     }
 
     geminiVisionProModel = GenerativeModel(
-      model: 'gemini-pro-vision',
+      model: 'gemini-1.5-flash',
       apiKey: apiKey,
       generationConfig: GenerationConfig(
         temperature: 0.4,

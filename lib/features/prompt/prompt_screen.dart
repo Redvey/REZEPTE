@@ -223,7 +223,7 @@ class PromptScreen extends StatelessWidget {
                               iconColor: Colors.black45,
                               buttonBackgroundColor: Colors.transparent,
                               hoverColor:
-                                  MarketplaceTheme.secondary.withOpacity(.1),
+                                  MarketplaceTheme.secondary.withValues(),
                             ),
                           ),
                         const Spacer(flex: 1),
