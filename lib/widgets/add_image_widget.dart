@@ -27,11 +27,11 @@ class _AddImageState extends State<AddImage> {
     var state = (hovered, tappedDown);
     return switch (state) {
       // tapped down state
-      (_, true) => MarketplaceTheme.secondary.withOpacity(.7),
+      (_, true) => MarketplaceTheme.secondary.withValues(alpha: .7),
       // hovered
-      (true, _) => MarketplaceTheme.secondary.withOpacity(.3),
+      (true, _) => MarketplaceTheme.secondary.withValues(alpha:.3),
       // base color
-      (_, _) => MarketplaceTheme.secondary.withOpacity(.3),
+      (_, _) => MarketplaceTheme.secondary.withValues(alpha:.3),
     };
   }
 

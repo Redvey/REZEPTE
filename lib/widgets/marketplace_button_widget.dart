@@ -55,10 +55,10 @@ class _MarketplaceButtonState extends State<MarketplaceButton> {
         backgroundColor: WidgetStateColor.resolveWith((states) {
           if (states.contains(WidgetState.hovered)) {
             return widget.hoverColor ??
-                MarketplaceTheme.secondary.withOpacity(.3);
+                MarketplaceTheme.secondary.withValues(alpha: .3);
           }
           return widget.buttonBackgroundColor ??
-              Theme.of(context).splashColor.withOpacity(.3);
+              Theme.of(context).splashColor.withValues(alpha: .3);
         }),
         shape: WidgetStateProperty.resolveWith(
           (states) {

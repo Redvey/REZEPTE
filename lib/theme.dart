@@ -8,7 +8,7 @@ abstract class MarketplaceTheme {
         bodyColor: const Color(0xff000000),
         displayColor: const Color(0xff000000)),
     colorScheme: const ColorScheme.light(
-      primary: Color(0xffA2E3F6),
+      primary: Color(0xffcda2f6),
       secondary: Color(0xff4FAD85),
       tertiary: Color(0xffDE7A60),
       scrim: Color(0xffFFABC7),
@@ -36,7 +36,7 @@ abstract class MarketplaceTheme {
     ),
   );
 
-  static const Color primary = Color(0xffA2E3F6);
+  static const Color primary = Color(0xffaaa2f6);
   static const Color scrim = Color(0xffFFABC7);
   static const Color tertiary = Color(0xffDE7A60);
   static const Color secondary = Color(0xff4FAD85);
